@@ -8,7 +8,7 @@ const accessoriesProducts = [
     { id: 14, name: "Her Moment To Shine Mini Bag - Silver", price: 9, image: "/07-11-22Studio3_ME_RL_08-58-15_10_E8AN01SV_Silver_0763_SG_468x.jpeg" },
     { id: 15, name: "You And Me Only Sunglasses - Silver", price: 1.98, image: "/03-25-24_S10_38_DR7355_Silver_CXB_13-12-55_10005_SG_ES_563efdd6-d304-4d3e-9a83-005525a3f508_468x.jpeg" },
 
-  // i'll ad more accessories products
+
 ];
 
 function Accessories() {
