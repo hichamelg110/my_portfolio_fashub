@@ -1,0 +1,32 @@
+.main-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    justify-content: start;
+    overflow-x: auto;
+  }
+  
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .thumbnail.selected {
+    border-color: #007bff;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .size-options button {
+    margin-right: 10px;
+  }

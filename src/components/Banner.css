@@ -1,0 +1,40 @@
+.banner {
+    position: relative;
+    max-height: 75vh;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner-headline {
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFA500; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner-subtext {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #FFFFFF; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 0.5em;
+  }
+  
